@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - AFGC St Catharines' Branch</title>
+    @*<link href="~/Content/Site.css" rel="stylesheet" type="text/css" />*@
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+    <script src="~/Scripts/modernizr.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/h5f.min.js"></script>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav"></ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        <div class="container-fluid">
+            <div class="row content">
+                <div class="col-lg-2 sidenav">
+                    <h4>Automation</h4>
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="active">@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("Pre-Deployment Operations", "Index", "PreDeployment")</li>
+                        <li>@Html.ActionLink("Deployment Operations", "Index", "Deployment")</li>
+                        <li>@Html.ActionLink("Post Deployment Operations", "Index", "PostDeployment")</li>
+                        <li>@Html.ActionLink("Manage Releases", "Index", "Releases")</li>
+                        <li>@Html.ActionLink("Manage Operations", "Index", "OperationsAdmin")</li>
+                        <li>@Html.ActionLink("Manage Parameters", "Index", "Parameters")</li>
+                        <li>@Html.ActionLink("Manage Servers", "Index", "Server")</li>
+                        <li>@Html.ActionLink("View Logs", "Index", "History")</li>
+                    </ul><br>
+                </div>
+                <div class="col-lg-10">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+        <hr />
+        <footer class="container-fluid">
+            <p>&copy; @DateTime.Now.Year - ANFGC - St Catharines</p>
+        </footer>
+    </div>
+</body>
+</html>
