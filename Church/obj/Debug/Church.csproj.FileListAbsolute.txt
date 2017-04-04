@@ -77,10 +77,11 @@ C:\Users\Stephen\Documents\Workspace\Management\Church\Church\bin\Microsoft.Owin
 C:\Users\Stephen\Documents\Workspace\Management\Church\Church\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Stephen\Documents\Workspace\Management\Church\Church\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Stephen\Documents\Workspace\Management\Church\Church\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Stephen\Documents\Workspace\Management\Church\Church\obj\Debug\Church.csprojResolveAssemblyReference.cache
 C:\Users\Stephen\Documents\Workspace\Management\Church\Church\obj\Debug\Church.Migrations.InitialDatabase.resources
 C:\Users\Stephen\Documents\Workspace\Management\Church\Church\obj\Debug\Church.Migrations.AddEnvelopeNumberToMember.resources
+C:\Users\Stephen\Documents\Workspace\Management\Church\Church\obj\Debug\Church.Migrations.DbModification.resources
+C:\Users\Stephen\Documents\Workspace\Management\Church\Church\obj\Debug\Church.Migrations.notsurewhatchanges.resources
 C:\Users\Stephen\Documents\Workspace\Management\Church\Church\obj\Debug\Church.csproj.GenerateResource.Cache
 C:\Users\Stephen\Documents\Workspace\Management\Church\Church\obj\Debug\Church.dll
 C:\Users\Stephen\Documents\Workspace\Management\Church\Church\obj\Debug\Church.pdb
-C:\Users\Stephen\Documents\Workspace\Management\Church\Church\obj\Debug\Church.csprojResolveAssemblyReference.cache
-C:\Users\Stephen\Documents\Workspace\Management\Church\Church\obj\Debug\Church.Migrations.DbModification.resources

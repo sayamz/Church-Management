@@ -17,7 +17,11 @@ namespace Church.ViewModels
         public string MiddleName { get; set; }
         [Display(Name = "Mobile Number")]
         public string CellPhone { get; set; }
-        [Display(Name = "Home Number")]
+
+        [Required(ErrorMessage = "Your must provide a Home Number")]
+        [Display(Name = "Home Phone")]
+        [RegularExpression(@"^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$", ErrorMessage = "Not a valid Phone number")]
+
         public string HomePhone { get; set; }
         public string Email { get; set; }
         public string Address { get; set; }

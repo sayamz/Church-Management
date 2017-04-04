@@ -219,6 +219,10 @@
     <Compile Include="Migrations\201701290355362_DbModification.Designer.cs">
       <DependentUpon>201701290355362_DbModification.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201702170112525_notsurewhatchanges.cs" />
+    <Compile Include="Migrations\201702170112525_notsurewhatchanges.Designer.cs">
+      <DependentUpon>201702170112525_notsurewhatchanges.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -235,6 +239,7 @@
     <Compile Include="ViewModels\MemberViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\AddMember.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -280,7 +285,6 @@
     <Content Include="Content\themes\base\tabs.css" />
     <Content Include="Content\themes\base\theme.css" />
     <Content Include="Content\themes\base\tooltip.css" />
-    <Content Include="Content\ui-bootstrap-csp.css" />
     <Content Include="css\font-awesome.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="favicon.ico" />
@@ -294,20 +298,9 @@
     <None Include="Content\Site.less" />
     <Content Include="Scripts\ai.0.22.19-build00125.js" />
     <Content Include="Scripts\ai.0.22.19-build00125.min.js" />
-    <Content Include="Scripts\angular-mocks.js" />
-    <Content Include="Scripts\angular-route.js" />
-    <Content Include="Scripts\angular-route.min.js" />
-    <Content Include="Scripts\angular-ui\ui-bootstrap-tpls.js" />
-    <Content Include="Scripts\angular-ui\ui-bootstrap-tpls.min.js" />
-    <Content Include="Scripts\angular-ui\ui-bootstrap.js" />
-    <Content Include="Scripts\angular-ui\ui-bootstrap.min.js" />
-    <Content Include="Scripts\angular.js" />
-    <Content Include="Scripts\angular.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Scripts\angular.min.js.map" />
-    <Content Include="Scripts\angular-route.min.js.map" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -388,6 +381,7 @@
     <Content Include="Views\Member\Index.cshtml" />
     <Content Include="Views\Shared\_AppLayout.cshtml" />
     <Content Include="Views\Member\_ViewStart.cshtml" />
+    <Content Include="Views\Member\AddNew.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -410,6 +404,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201701290355362_DbModification.resx">
       <DependentUpon>201701290355362_DbModification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702170112525_notsurewhatchanges.resx">
+      <DependentUpon>201702170112525_notsurewhatchanges.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

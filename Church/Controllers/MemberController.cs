@@ -63,6 +63,7 @@ namespace Church.Controllers
                     Profession = model.ProfessionId > 0 ? context.Profession.Find(model.ProfessionId) : null,
                     HomePhone = model.HomePhone,
                     CellPhone = model.CellPhone,
+
                     Department = model.DepartmentId > 0 ? context.Department.Find(model.DepartmentId) : null,
                     Email = model.Email,
                     Status=RecordStatus.Active

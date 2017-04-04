@@ -12,6 +12,7 @@
     <script src="~/Scripts/modernizr.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
     <script src="~/Scripts/h5f.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -31,21 +32,18 @@
     <div class="container body-content">
         <div class="container-fluid">
             <div class="row content">
-                <div class="col-lg-2 sidenav">
+                <div class="col-md-2 sidenav">
                     <h4>Automation</h4>
                     <ul class="nav nav-pills nav-stacked">
                         <li class="active">@Html.ActionLink("Home", "Index", "Home")</li>
-                        <li>@Html.ActionLink("Pre-Deployment Operations", "Index", "PreDeployment")</li>
-                        <li>@Html.ActionLink("Deployment Operations", "Index", "Deployment")</li>
-                        <li>@Html.ActionLink("Post Deployment Operations", "Index", "PostDeployment")</li>
-                        <li>@Html.ActionLink("Manage Releases", "Index", "Releases")</li>
-                        <li>@Html.ActionLink("Manage Operations", "Index", "OperationsAdmin")</li>
-                        <li>@Html.ActionLink("Manage Parameters", "Index", "Parameters")</li>
-                        <li>@Html.ActionLink("Manage Servers", "Index", "Server")</li>
-                        <li>@Html.ActionLink("View Logs", "Index", "History")</li>
+                        <li>@Html.ActionLink("Add Member", "Add", "Member")</li>
+                        <li>@Html.ActionLink("Edit Member", "Edit", "Member")</li>
+                        <li>@Html.ActionLink("View Members", "Index", "Member")</li>
+                        <li>@Html.ActionLink("Manage Transactions", "Index", "Transaction")</li>
+                        <li>@Html.ActionLink("Manage Public Site", "Index", "Member")</li>
                     </ul><br>
                 </div>
-                <div class="col-lg-10">
+                <div class="col-md-10">
                     @RenderBody()
                 </div>
             </div>
